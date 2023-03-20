@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UPI Button with Icon</title>
+	<style>
+		.upi-btn {
+			background-color: #34b03d;
+			border: none;
+			color: #fff;
+			cursor: pointer;
+			display: inline-block;
+			font-size: 16px;
+			font-weight: bold;
+			padding: 10px 20px 10px 60px;
+			position: relative;
+			text-align: center;
+			text-decoration: none;
+			transition: background-color 0.3s ease;
+		}
+
+		.upi-btn:hover {
+			background-color: #2c9c35;
+		}
+
+		.upi-icon {
+			background-image: url('upi-icon.png');
+			background-repeat: no-repeat;
+			background-size: 30px 30px;
+			display: inline-block;
+			height: 30px;
+			left: 15px;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 30px;
+		}
+        .refresh-btn {
+	background-image: url('upi-icon.svg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    
+}
+
+	</style>
+</head>
+<body>
+	<button class="upi-btn">
+		<span class="upi-icon"></span>
+      <div class="refresh-btn">
+        <object data="upi-icon.svg"  type="image/svg+xml" width="50" height="50"></object>
+        
+    </div>
+</button>
+
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+
+#Name:#TUPAKULAMURALIKRISHNA
+#ROLE:#Web #Development #Intern
+#Company:#TheSparksFoundation
+
+
+
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #A100FF;
+    color: #9efb14;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fixed-header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .nav-bar {
+    background-color: #fb027269;
+    position: fixed;
+    color: #333;
+    padding:  20px;
+    width: 1500px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-bar li {
+    margin-right: 20px;
+  }
+  
+  .nav-bar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .nav-bar a:hover {
+    background-color: #0fe7d5;
+    opacity: 0.5;
+  }
+  
